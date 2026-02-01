@@ -1,0 +1,16 @@
+/**
+ * @file 全局样式
+ * @description 基础样式重置
+ */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
