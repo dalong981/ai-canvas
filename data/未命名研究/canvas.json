@@ -1,0 +1,1661 @@
+{
+  "document": {
+    "store": {
+      "shape:LuHb7jwedjqQctuogJDsb": {
+        "x": 820,
+        "y": 160,
+        "rotation": 0,
+        "isLocked": false,
+        "opacity": 1,
+        "meta": {},
+        "id": "shape:LuHb7jwedjqQctuogJDsb",
+        "type": "text",
+        "props": {
+          "color": "blue",
+          "size": "xl",
+          "w": 813.5023478072004,
+          "font": "sans",
+          "textAlign": "start",
+          "autoSize": false,
+          "scale": 0.553163738510377,
+          "richText": {
+            "type": "doc",
+            "attrs": {
+              "dir": "auto"
+            },
+            "content": [
+              {
+                "type": "heading",
+                "attrs": {
+                  "dir": "auto",
+                  "level": 3
+                },
+                "content": [
+                  {
+                    "type": "text",
+                    "marks": [
+                      {
+                        "type": "highlight"
+                      }
+                    ],
+                    "text": "James Clear"
+                  },
+                  {
+                    "type": "text",
+                    "text": "（詹姆斯·克利尔）"
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "attrs": {
+                  "dir": "auto"
+                },
+                "content": [
+                  {
+                    "type": "text",
+                    "marks": [
+                      {
+                        "type": "bold"
+                      }
+                    ],
+                    "text": "身份"
+                  },
+                  {
+                    "type": "text",
+                    "text": "：作家、演讲家，专注于习惯养成、决策制定和持续进步。"
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "attrs": {
+                  "dir": "auto"
+                },
+                "content": [
+                  {
+                    "type": "text",
+                    "marks": [
+                      {
+                        "type": "bold"
+                      }
+                    ],
+                    "text": "代表作"
+                  },
+                  {
+                    "type": "text",
+                    "text": "：就是你在左侧看到的书 "
+                  },
+                  {
+                    "type": "text",
+                    "marks": [
+                      {
+                        "type": "bold"
+                      }
+                    ],
+                    "text": "《"
+                  },
+                  {
+                    "type": "text",
+                    "marks": [
+                      {
+                        "type": "highlight"
+                      },
+                      {
+                        "type": "bold"
+                      }
+                    ],
+                    "text": "Atomic Habits"
+                  },
+                  {
+                    "type": "text",
+                    "marks": [
+                      {
+                        "type": "bold"
+                      }
+                    ],
+                    "text": "》（中文译名：《掌控习惯》或《原子习惯》）"
+                  },
+                  {
+                    "type": "text",
+                    "text": "。这本书是全球现象级的畅销书，长期霸榜《纽约时报》畅销书单。"
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "attrs": {
+                  "dir": "auto"
+                }
+              }
+            ]
+          }
+        },
+        "parentId": "page:page",
+        "index": "a7oPEH7V",
+        "typeName": "shape"
+      },
+      "shape:1DwFMgWRlrvRJBuLR0Pew": {
+        "x": 560,
+        "y": 180,
+        "rotation": 0,
+        "isLocked": false,
+        "opacity": 1,
+        "meta": {},
+        "id": "shape:1DwFMgWRlrvRJBuLR0Pew",
+        "type": "arrow",
+        "props": {
+          "kind": "arc",
+          "elbowMidPoint": 0.5,
+          "dash": "draw",
+          "size": "m",
+          "fill": "none",
+          "color": "black",
+          "labelColor": "black",
+          "bend": 46.22406286976258,
+          "start": {
+            "x": 0,
+            "y": 0
+          },
+          "end": {
+            "x": -100,
+            "y": 260
+          },
+          "arrowheadStart": "none",
+          "arrowheadEnd": "arrow",
+          "richText": {
+            "type": "doc",
+            "content": [
+              {
+                "type": "paragraph"
+              }
+            ]
+          },
+          "labelPosition": 0.5,
+          "font": "sans",
+          "scale": 1
+        },
+        "parentId": "page:page",
+        "index": "a9xMLIeV",
+        "typeName": "shape"
+      },
+      "shape:9IGGSsleNdHGZ1QsQfULb": {
+        "x": 1250,
+        "y": -260,
+        "rotation": 0,
+        "isLocked": false,
+        "opacity": 1,
+        "meta": {},
+        "id": "shape:9IGGSsleNdHGZ1QsQfULb",
+        "type": "text",
+        "props": {
+          "color": "black",
+          "size": "m",
+          "w": 145,
+          "font": "draw",
+          "textAlign": "start",
+          "autoSize": true,
+          "scale": 1,
+          "richText": {
+            "type": "doc",
+            "attrs": {
+              "dir": "auto"
+            },
+            "content": [
+              {
+                "type": "paragraph",
+                "attrs": {
+                  "dir": "auto"
+                },
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "书：原子习惯"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "parentId": "page:page",
+        "index": "a292ya6V",
+        "typeName": "shape"
+      },
+      "binding:_0HgJhomuSB0Sp8pE-1Bb": {
+        "meta": {},
+        "id": "binding:_0HgJhomuSB0Sp8pE-1Bb",
+        "type": "arrow",
+        "fromId": "shape:rkrJ6K9bhyuYxJ3_O-Jms",
+        "toId": "shape:LuHb7jwedjqQctuogJDsb",
+        "props": {
+          "isPrecise": true,
+          "isExact": false,
+          "normalizedAnchor": {
+            "x": 0.3502059370741673,
+            "y": 0.10263492496213623
+          },
+          "snap": "none",
+          "terminal": "end"
+        },
+        "typeName": "binding"
+      },
+      "shape:yP0unA8OEGC46uZZNqJ8j": {
+        "x": 400,
+        "y": 170,
+        "rotation": 0,
+        "isLocked": false,
+        "opacity": 1,
+        "meta": {},
+        "id": "shape:yP0unA8OEGC46uZZNqJ8j",
+        "type": "text",
+        "props": {
+          "color": "blue",
+          "size": "xl",
+          "w": 713.3979955307981,
+          "font": "sans",
+          "textAlign": "start",
+          "autoSize": false,
+          "scale": 0.5046271537841158,
+          "richText": {
+            "type": "doc",
+            "attrs": {
+              "dir": "auto"
+            },
+            "content": [
+              {
+                "type": "heading",
+                "attrs": {
+                  "dir": "auto",
+                  "level": 3
+                },
+                "content": [
+                  {
+                    "type": "text",
+                    "marks": [
+                      {
+                        "type": "highlight"
+                      }
+                    ],
+                    "text": "Shane Parrish"
+                  },
+                  {
+                    "type": "text",
+                    "text": "（谢恩·帕里什）"
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "attrs": {
+                  "dir": "auto"
+                },
+                "content": [
+                  {
+                    "type": "text",
+                    "marks": [
+                      {
+                        "type": "bold"
+                      }
+                    ],
+                    "text": "身份"
+                  },
+                  {
+                    "type": "text",
+                    "text": "："
+                  },
+                  {
+                    "type": "text",
+                    "marks": [
+                      {
+                        "type": "bold"
+                      }
+                    ],
+                    "text": "Farnam Street (FS.blog)"
+                  },
+                  {
+                    "type": "text",
+                    "text": " 的创始人，"
+                  },
+                  {
+                    "type": "text",
+                    "marks": [
+                      {
+                        "type": "bold"
+                      }
+                    ],
+                    "text": "The Knowledge Project"
+                  },
+                  {
+                    "type": "text",
+                    "text": " 播客的主持人（即右侧视频所属的播客）。他曾是一名加拿大情报机构的特工，后来转型为投资人和知识传播者。"
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "attrs": {
+                  "dir": "auto"
+                }
+              },
+              {
+                "type": "heading",
+                "attrs": {
+                  "dir": "auto",
+                  "level": 3
+                }
+              },
+              {
+                "type": "paragraph",
+                "attrs": {
+                  "dir": "auto"
+                }
+              }
+            ]
+          }
+        },
+        "parentId": "page:page",
+        "index": "a8A1Hw4V",
+        "typeName": "shape"
+      },
+      "binding:-gPsNnHOvwELQ6KHh0wWU": {
+        "meta": {},
+        "id": "binding:-gPsNnHOvwELQ6KHh0wWU",
+        "type": "arrow",
+        "fromId": "shape:kFZmMmKym1omB7yJ89AY0",
+        "toId": "shape:PijxDReKj7D_z1HOFHCJT",
+        "props": {
+          "isPrecise": true,
+          "isExact": false,
+          "normalizedAnchor": {
+            "x": 0.06753788091247047,
+            "y": 0.5965239854977182
+          },
+          "snap": "none",
+          "terminal": "start"
+        },
+        "typeName": "binding"
+      },
+      "shape:EH2hDtr2XjZdQoA6IgBLF": {
+        "x": -430,
+        "y": -260,
+        "rotation": 0,
+        "isLocked": false,
+        "opacity": 1,
+        "meta": {},
+        "id": "shape:EH2hDtr2XjZdQoA6IgBLF",
+        "type": "text",
+        "props": {
+          "color": "black",
+          "size": "m",
+          "w": 749.9999999999999,
+          "font": "sans",
+          "textAlign": "start",
+          "autoSize": false,
+          "scale": 1,
+          "richText": {
+            "type": "doc",
+            "attrs": {
+              "dir": "auto"
+            },
+            "content": [
+              {
+                "type": "paragraph",
+                "attrs": {
+                  "dir": "auto"
+                },
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "视频中的核心内容段落总结："
+                  }
+                ]
+              },
+              {
+                "type": "orderedList",
+                "attrs": {
+                  "dir": "auto",
+                  "start": 1,
+                  "type": null
+                },
+                "content": [
+                  {
+                    "type": "listItem",
+                    "attrs": {
+                      "dir": "auto"
+                    },
+                    "content": [
+                      {
+                        "type": "paragraph",
+                        "attrs": {
+                          "dir": "auto"
+                        },
+                        "content": [
+                          {
+                            "type": "text",
+                            "marks": [
+                              {
+                                "type": "bold"
+                              }
+                            ],
+                            "text": "两分钟规则 (The Two-Minute Rule)"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "bulletList",
+                        "attrs": {
+                          "dir": "auto"
+                        },
+                        "content": [
+                          {
+                            "type": "listItem",
+                            "attrs": {
+                              "dir": "auto"
+                            },
+                            "content": [
+                              {
+                                "type": "paragraph",
+                                "attrs": {
+                                  "dir": "auto"
+                                },
+                                "content": [
+                                  {
+                                    "type": "text",
+                                    "marks": [
+                                      {
+                                        "type": "bold"
+                                      }
+                                    ],
+                                    "text": "核心概念"
+                                  },
+                                  {
+                                    "type": "text",
+                                    "text": "：将任何新习惯缩减为两分钟内能完成的事情（例如，“去健身房”变为“穿上跑鞋”）。"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "listItem",
+                            "attrs": {
+                              "dir": "auto"
+                            },
+                            "content": [
+                              {
+                                "type": "paragraph",
+                                "attrs": {
+                                  "dir": "auto"
+                                },
+                                "content": [
+                                  {
+                                    "type": "text",
+                                    "marks": [
+                                      {
+                                        "type": "bold"
+                                      }
+                                    ],
+                                    "text": "目的"
+                                  },
+                                  {
+                                    "type": "text",
+                                    "text": "：先标准化，再优化（Standardize before you optimize）。你需要先掌握“出现”（showing up）的艺术，即使最初只去健身房 5 分钟。"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "listItem",
+                    "attrs": {
+                      "dir": "auto"
+                    },
+                    "content": [
+                      {
+                        "type": "paragraph",
+                        "attrs": {
+                          "dir": "auto"
+                        },
+                        "content": [
+                          {
+                            "type": "text",
+                            "marks": [
+                              {
+                                "type": "bold"
+                              }
+                            ],
+                            "text": "身份认同与习惯 (Identity and Habits)"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "bulletList",
+                        "attrs": {
+                          "dir": "auto"
+                        },
+                        "content": [
+                          {
+                            "type": "listItem",
+                            "attrs": {
+                              "dir": "auto"
+                            },
+                            "content": [
+                              {
+                                "type": "paragraph",
+                                "attrs": {
+                                  "dir": "auto"
+                                },
+                                "content": [
+                                  {
+                                    "type": "text",
+                                    "marks": [
+                                      {
+                                        "type": "bold"
+                                      }
+                                    ],
+                                    "text": "核心概念"
+                                  },
+                                  {
+                                    "type": "text",
+                                    "text": "：每一次行动都是为你想要成为的那个人投下的一票。"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "listItem",
+                            "attrs": {
+                              "dir": "auto"
+                            },
+                            "content": [
+                              {
+                                "type": "paragraph",
+                                "attrs": {
+                                  "dir": "auto"
+                                },
+                                "content": [
+                                  {
+                                    "type": "text",
+                                    "marks": [
+                                      {
+                                        "type": "bold"
+                                      }
+                                    ],
+                                    "text": "金句"
+                                  },
+                                  {
+                                    "type": "text",
+                                    "text": "：“目标不是读一本书，而是成为一个读书的人。”"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "listItem",
+                            "attrs": {
+                              "dir": "auto"
+                            },
+                            "content": [
+                              {
+                                "type": "paragraph",
+                                "attrs": {
+                                  "dir": "auto"
+                                },
+                                "content": [
+                                  {
+                                    "type": "text",
+                                    "marks": [
+                                      {
+                                        "type": "bold"
+                                      }
+                                    ],
+                                    "text": "逻辑"
+                                  },
+                                  {
+                                    "type": "text",
+                                    "text": "：真正的行为改变是身份的改变。当你为某种身份积累了足够的证据（行动），你就会自然而然地维护这个习惯。"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "listItem",
+                    "attrs": {
+                      "dir": "auto"
+                    },
+                    "content": [
+                      {
+                        "type": "paragraph",
+                        "attrs": {
+                          "dir": "auto"
+                        },
+                        "content": [
+                          {
+                            "type": "text",
+                            "marks": [
+                              {
+                                "type": "bold"
+                              }
+                            ],
+                            "text": "潜能蓄积期与冰块比喻 (Patience & The Ice Cube Analogy)"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "bulletList",
+                        "attrs": {
+                          "dir": "auto"
+                        },
+                        "content": [
+                          {
+                            "type": "listItem",
+                            "attrs": {
+                              "dir": "auto"
+                            },
+                            "content": [
+                              {
+                                "type": "paragraph",
+                                "attrs": {
+                                  "dir": "auto"
+                                },
+                                "content": [
+                                  {
+                                    "type": "text",
+                                    "marks": [
+                                      {
+                                        "type": "bold"
+                                      }
+                                    ],
+                                    "text": "现象"
+                                  },
+                                  {
+                                    "type": "text",
+                                    "text": "：很多人在看到结果前就放弃了，因为他们处于“失望之谷”。"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "listItem",
+                            "attrs": {
+                              "dir": "auto"
+                            },
+                            "content": [
+                              {
+                                "type": "paragraph",
+                                "attrs": {
+                                  "dir": "auto"
+                                },
+                                "content": [
+                                  {
+                                    "type": "text",
+                                    "marks": [
+                                      {
+                                        "type": "bold"
+                                      }
+                                    ],
+                                    "text": "比喻"
+                                  },
+                                  {
+                                    "type": "text",
+                                    "text": "：就像加热冰块，从 25 度加热到 31 度都看不到变化，只有到了 32 度冰块才开始融化。之前的努力没有浪费，只是被储存起来了（Stored）。"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "listItem",
+                    "attrs": {
+                      "dir": "auto"
+                    },
+                    "content": [
+                      {
+                        "type": "paragraph",
+                        "attrs": {
+                          "dir": "auto"
+                        },
+                        "content": [
+                          {
+                            "type": "text",
+                            "marks": [
+                              {
+                                "type": "bold"
+                              }
+                            ],
+                            "text": "环境设计 (Environment Design)"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "bulletList",
+                        "attrs": {
+                          "dir": "auto"
+                        },
+                        "content": [
+                          {
+                            "type": "listItem",
+                            "attrs": {
+                              "dir": "auto"
+                            },
+                            "content": [
+                              {
+                                "type": "paragraph",
+                                "attrs": {
+                                  "dir": "auto"
+                                },
+                                "content": [
+                                  {
+                                    "type": "text",
+                                    "marks": [
+                                      {
+                                        "type": "bold"
+                                      }
+                                    ],
+                                    "text": "原则"
+                                  },
+                                  {
+                                    "type": "text",
+                                    "text": "：你可以成为自己环境的建筑师，而不是受害者。"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "listItem",
+                            "attrs": {
+                              "dir": "auto"
+                            },
+                            "content": [
+                              {
+                                "type": "paragraph",
+                                "attrs": {
+                                  "dir": "auto"
+                                },
+                                "content": [
+                                  {
+                                    "type": "text",
+                                    "marks": [
+                                      {
+                                        "type": "bold"
+                                      }
+                                    ],
+                                    "text": "案例"
+                                  },
+                                  {
+                                    "type": "text",
+                                    "text": "：想吃得健康，就把苹果放在桌上显眼的碗里；不想玩手机，就把手机放在另一个房间（增加摩擦力）。"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "listItem",
+                            "attrs": {
+                              "dir": "auto"
+                            },
+                            "content": [
+                              {
+                                "type": "paragraph",
+                                "attrs": {
+                                  "dir": "auto"
+                                },
+                                "content": [
+                                  {
+                                    "type": "text",
+                                    "marks": [
+                                      {
+                                        "type": "bold"
+                                      }
+                                    ],
+                                    "text": "四定律"
+                                  },
+                                  {
+                                    "type": "text",
+                                    "text": "：让好习惯"
+                                  },
+                                  {
+                                    "type": "text",
+                                    "marks": [
+                                      {
+                                        "type": "bold"
+                                      }
+                                    ],
+                                    "text": "显而易见、有吸引力、简便易行、令人愉悦"
+                                  },
+                                  {
+                                    "type": "text",
+                                    "text": "。"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "listItem",
+                    "attrs": {
+                      "dir": "auto"
+                    },
+                    "content": [
+                      {
+                        "type": "paragraph",
+                        "attrs": {
+                          "dir": "auto"
+                        },
+                        "content": [
+                          {
+                            "type": "text",
+                            "marks": [
+                              {
+                                "type": "bold"
+                              }
+                            ],
+                            "text": "探索与利用 (Explore vs. Exploit)"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "bulletList",
+                        "attrs": {
+                          "dir": "auto"
+                        },
+                        "content": [
+                          {
+                            "type": "listItem",
+                            "attrs": {
+                              "dir": "auto"
+                            },
+                            "content": [
+                              {
+                                "type": "paragraph",
+                                "attrs": {
+                                  "dir": "auto"
+                                },
+                                "content": [
+                                  {
+                                    "type": "text",
+                                    "marks": [
+                                      {
+                                        "type": "bold"
+                                      }
+                                    ],
+                                    "text": "策略"
+                                  },
+                                  {
+                                    "type": "text",
+                                    "text": "：在初期广泛尝试（Explore），找到有效的方法后全力以赴（Exploit），当它不再有效时，重新回到探索阶段。"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "listItem",
+                    "attrs": {
+                      "dir": "auto"
+                    },
+                    "content": [
+                      {
+                        "type": "paragraph",
+                        "attrs": {
+                          "dir": "auto"
+                        },
+                        "content": [
+                          {
+                            "type": "text",
+                            "marks": [
+                              {
+                                "type": "bold"
+                              }
+                            ],
+                            "text": "应对不确定性 (Handling Uncertainty)"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "bulletList",
+                        "attrs": {
+                          "dir": "auto"
+                        },
+                        "content": [
+                          {
+                            "type": "listItem",
+                            "attrs": {
+                              "dir": "auto"
+                            },
+                            "content": [
+                              {
+                                "type": "paragraph",
+                                "attrs": {
+                                  "dir": "auto"
+                                },
+                                "content": [
+                                  {
+                                    "type": "text",
+                                    "marks": [
+                                      {
+                                        "type": "bold"
+                                      }
+                                    ],
+                                    "text": "心态"
+                                  },
+                                  {
+                                    "type": "text",
+                                    "text": "：真正的心理韧性不是预测未来的能力，而是相信自己能应对不确定性的自信。"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "listItem",
+                            "attrs": {
+                              "dir": "auto"
+                            },
+                            "content": [
+                              {
+                                "type": "paragraph",
+                                "attrs": {
+                                  "dir": "auto"
+                                },
+                                "content": [
+                                  {
+                                    "type": "text",
+                                    "marks": [
+                                      {
+                                        "type": "bold"
+                                      }
+                                    ],
+                                    "text": "方法"
+                                  },
+                                  {
+                                    "type": "text",
+                                    "text": "：不要因为害怕结果不好而“自我设限”或“打折执行”。"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "listItem",
+                    "attrs": {
+                      "dir": "auto"
+                    },
+                    "content": [
+                      {
+                        "type": "paragraph",
+                        "attrs": {
+                          "dir": "auto"
+                        },
+                        "content": [
+                          {
+                            "type": "text",
+                            "marks": [
+                              {
+                                "type": "bold"
+                              }
+                            ],
+                            "text": "阅读与学习策略 (Reading & Learning Strategy)"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "bulletList",
+                        "attrs": {
+                          "dir": "auto"
+                        },
+                        "content": [
+                          {
+                            "type": "listItem",
+                            "attrs": {
+                              "dir": "auto"
+                            },
+                            "content": [
+                              {
+                                "type": "paragraph",
+                                "attrs": {
+                                  "dir": "auto"
+                                },
+                                "content": [
+                                  {
+                                    "type": "text",
+                                    "marks": [
+                                      {
+                                        "type": "bold"
+                                      }
+                                    ],
+                                    "text": "比喻"
+                                  },
+                                  {
+                                    "type": "text",
+                                    "text": "：阅读是给车加油，写作是开车。你不能光加油不开车，也不能光开车不加油。"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "listItem",
+                            "attrs": {
+                              "dir": "auto"
+                            },
+                            "content": [
+                              {
+                                "type": "paragraph",
+                                "attrs": {
+                                  "dir": "auto"
+                                },
+                                "content": [
+                                  {
+                                    "type": "text",
+                                    "marks": [
+                                      {
+                                        "type": "bold"
+                                      }
+                                    ],
+                                    "text": "宽漏斗，紧过滤"
+                                  },
+                                  {
+                                    "type": "text",
+                                    "text": "：学习新东西时，先大量浏览（打开50个网页），然后严格筛选出最有用的几条信息。"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "listItem",
+                    "attrs": {
+                      "dir": "auto"
+                    },
+                    "content": [
+                      {
+                        "type": "paragraph",
+                        "attrs": {
+                          "dir": "auto"
+                        },
+                        "content": [
+                          {
+                            "type": "text",
+                            "marks": [
+                              {
+                                "type": "bold"
+                              }
+                            ],
+                            "text": "优先级的艺术 (Prioritization)"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "bulletList",
+                        "attrs": {
+                          "dir": "auto"
+                        },
+                        "content": [
+                          {
+                            "type": "listItem",
+                            "attrs": {
+                              "dir": "auto"
+                            },
+                            "content": [
+                              {
+                                "type": "paragraph",
+                                "attrs": {
+                                  "dir": "auto"
+                                },
+                                "content": [
+                                  {
+                                    "type": "text",
+                                    "marks": [
+                                      {
+                                        "type": "bold"
+                                      }
+                                    ],
+                                    "text": "方法"
+                                  },
+                                  {
+                                    "type": "text",
+                                    "text": "：他提到用“晾衣绳”和“夹子”来物理可视化优先级。只有少数几件事能挂在“线”的上方（最重要的事）。"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "listItem",
+                            "attrs": {
+                              "dir": "auto"
+                            },
+                            "content": [
+                              {
+                                "type": "paragraph",
+                                "attrs": {
+                                  "dir": "auto"
+                                },
+                                "content": [
+                                  {
+                                    "type": "text",
+                                    "marks": [
+                                      {
+                                        "type": "bold"
+                                      }
+                                    ],
+                                    "text": "无限性"
+                                  },
+                                  {
+                                    "type": "text",
+                                    "text": "：接受重要的事情（如健康、关系）是"
+                                  },
+                                  {
+                                    "type": "text",
+                                    "marks": [
+                                      {
+                                        "type": "bold"
+                                      }
+                                    ],
+                                    "text": "无休止的战斗"
+                                  },
+                                  {
+                                    "type": "text",
+                                    "text": "，没有终点线，重点是喜欢你的日常生活。"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "listItem",
+                    "attrs": {
+                      "dir": "auto"
+                    },
+                    "content": [
+                      {
+                        "type": "paragraph",
+                        "attrs": {
+                          "dir": "auto"
+                        },
+                        "content": [
+                          {
+                            "type": "text",
+                            "marks": [
+                              {
+                                "type": "bold"
+                              }
+                            ],
+                            "text": "成功的定义"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "bulletList",
+                        "attrs": {
+                          "dir": "auto"
+                        },
+                        "content": [
+                          {
+                            "type": "listItem",
+                            "attrs": {
+                              "dir": "auto"
+                            },
+                            "content": [
+                              {
+                                "type": "paragraph",
+                                "attrs": {
+                                  "dir": "auto"
+                                },
+                                "content": [
+                                  {
+                                    "type": "text",
+                                    "text": "James Clear 认为成功是 "
+                                  },
+                                  {
+                                    "type": "text",
+                                    "marks": [
+                                      {
+                                        "type": "bold"
+                                      }
+                                    ],
+                                    "text": "\"拥有对自己时间的掌控权\" (Having power over my days)"
+                                  },
+                                  {
+                                    "type": "text",
+                                    "text": "，以及为人类的知识库贡献一点点自己的力量。"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "parentId": "page:page",
+        "index": "aB6ExCBV",
+        "typeName": "shape"
+      },
+      "binding:ILS1ctfobWcZGnhTHa0Y_": {
+        "meta": {},
+        "id": "binding:ILS1ctfobWcZGnhTHa0Y_",
+        "type": "arrow",
+        "fromId": "shape:1DwFMgWRlrvRJBuLR0Pew",
+        "toId": "shape:yP0unA8OEGC46uZZNqJ8j",
+        "props": {
+          "isPrecise": true,
+          "isExact": false,
+          "normalizedAnchor": {
+            "x": 0.42375173644397784,
+            "y": 0.07539257750631777
+          },
+          "snap": "none",
+          "terminal": "end"
+        },
+        "typeName": "binding"
+      },
+      "asset:1266882414": {
+        "id": "asset:1266882414",
+        "type": "image",
+        "typeName": "asset",
+        "props": {
+          "name": "tldrawFile",
+          "src": "asset:1266882414",
+          "w": 276,
+          "h": 362,
+          "fileSize": 154256,
+          "mimeType": "image/png",
+          "isAnimated": false
+        },
+        "meta": {}
+      },
+      "shape:mPhqPDwqvSAhHW2fSInse": {
+        "x": 410,
+        "y": -430,
+        "rotation": 0,
+        "isLocked": false,
+        "opacity": 1,
+        "meta": {},
+        "id": "shape:mPhqPDwqvSAhHW2fSInse",
+        "type": "text",
+        "props": {
+          "color": "black",
+          "size": "m",
+          "w": 189.23629454720657,
+          "font": "draw",
+          "textAlign": "start",
+          "autoSize": false,
+          "scale": 3.5345416449626614,
+          "richText": {
+            "type": "doc",
+            "attrs": {
+              "dir": "auto"
+            },
+            "content": [
+              {
+                "type": "paragraph",
+                "attrs": {
+                  "dir": "auto"
+                },
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "习惯的力量对谈"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "parentId": "page:page",
+        "index": "a5e6kzz8",
+        "typeName": "shape"
+      },
+      "shape:PijxDReKj7D_z1HOFHCJT": {
+        "x": 410,
+        "y": -310,
+        "rotation": 0,
+        "isLocked": false,
+        "opacity": 1,
+        "meta": {},
+        "id": "shape:PijxDReKj7D_z1HOFHCJT",
+        "type": "embed",
+        "props": {
+          "w": 590.0352647569445,
+          "h": 331.89483642578125,
+          "url": "https://youtu.be/zChiVdbSp5M?si=XgJa-jULmgd1_CYX"
+        },
+        "parentId": "page:page",
+        "index": "a3Wm56xV",
+        "typeName": "shape"
+      },
+      "shape:CGt1aEvmLrJfVNBpa0fU-": {
+        "x": 1200,
+        "y": -210,
+        "rotation": 0,
+        "isLocked": false,
+        "opacity": 1,
+        "meta": {},
+        "id": "shape:CGt1aEvmLrJfVNBpa0fU-",
+        "type": "image",
+        "props": {
+          "w": 238.52878094246373,
+          "h": 312.85296630859375,
+          "assetId": "asset:1266882414",
+          "playing": true,
+          "url": "",
+          "crop": null,
+          "flipX": false,
+          "flipY": false,
+          "altText": ""
+        },
+        "parentId": "page:page",
+        "index": "a1C69DtV",
+        "typeName": "shape"
+      },
+      "binding:JfFVaZeCCFBwE9fTkGfYV": {
+        "meta": {},
+        "id": "binding:JfFVaZeCCFBwE9fTkGfYV",
+        "type": "arrow",
+        "fromId": "shape:1DwFMgWRlrvRJBuLR0Pew",
+        "toId": "shape:PijxDReKj7D_z1HOFHCJT",
+        "props": {
+          "isPrecise": true,
+          "isExact": false,
+          "normalizedAnchor": {
+            "x": 0.21873558116248126,
+            "y": 0.6966396580212643
+          },
+          "snap": "none",
+          "terminal": "start"
+        },
+        "typeName": "binding"
+      },
+      "shape:rkrJ6K9bhyuYxJ3_O-Jms": {
+        "x": 870,
+        "y": 180,
+        "rotation": 0,
+        "isLocked": false,
+        "opacity": 1,
+        "meta": {},
+        "id": "shape:rkrJ6K9bhyuYxJ3_O-Jms",
+        "type": "arrow",
+        "props": {
+          "kind": "arc",
+          "elbowMidPoint": 0.5,
+          "dash": "draw",
+          "size": "m",
+          "fill": "none",
+          "color": "black",
+          "labelColor": "black",
+          "bend": -80.1262228044171,
+          "start": {
+            "x": 0,
+            "y": 0
+          },
+          "end": {
+            "x": 50,
+            "y": 240
+          },
+          "arrowheadStart": "none",
+          "arrowheadEnd": "arrow",
+          "richText": {
+            "type": "doc",
+            "content": [
+              {
+                "type": "paragraph"
+              }
+            ]
+          },
+          "labelPosition": 0.5,
+          "font": "sans",
+          "scale": 1
+        },
+        "parentId": "page:page",
+        "index": "a7uzKHuA",
+        "typeName": "shape"
+      },
+      "shape:H4KHayu4raenrAkG8aBmG": {
+        "x": -460,
+        "y": -300,
+        "rotation": 0,
+        "isLocked": false,
+        "opacity": 1,
+        "meta": {},
+        "id": "shape:H4KHayu4raenrAkG8aBmG",
+        "type": "geo",
+        "props": {
+          "w": 830,
+          "h": 1560,
+          "geo": "rectangle",
+          "dash": "draw",
+          "growY": 0,
+          "url": "",
+          "scale": 1,
+          "color": "yellow",
+          "labelColor": "black",
+          "fill": "solid",
+          "size": "m",
+          "font": "sans",
+          "align": "middle",
+          "verticalAlign": "middle",
+          "richText": {
+            "type": "doc",
+            "content": [
+              {
+                "type": "paragraph"
+              }
+            ]
+          }
+        },
+        "parentId": "page:page",
+        "index": "aAUCiojG",
+        "typeName": "shape"
+      },
+      "binding:XYeadfgPLoNCYzAz63H8s": {
+        "meta": {},
+        "id": "binding:XYeadfgPLoNCYzAz63H8s",
+        "type": "arrow",
+        "fromId": "shape:rkrJ6K9bhyuYxJ3_O-Jms",
+        "toId": "shape:PijxDReKj7D_z1HOFHCJT",
+        "props": {
+          "isPrecise": true,
+          "isExact": false,
+          "normalizedAnchor": {
+            "x": 0.7441279068698261,
+            "y": 0.6966396580212643
+          },
+          "snap": "none",
+          "terminal": "start"
+        },
+        "typeName": "binding"
+      },
+      "page:page": {
+        "meta": {},
+        "id": "page:page",
+        "name": "Page 1",
+        "index": "a1",
+        "typeName": "page"
+      },
+      "document:document": {
+        "gridSize": 10,
+        "name": "",
+        "meta": {},
+        "id": "document:document",
+        "typeName": "document"
+      },
+      "shape:kFZmMmKym1omB7yJ89AY0": {
+        "x": 470.78802490234375,
+        "y": 146.77212524414062,
+        "rotation": 0,
+        "isLocked": false,
+        "opacity": 1,
+        "meta": {},
+        "id": "shape:kFZmMmKym1omB7yJ89AY0",
+        "type": "arrow",
+        "props": {
+          "kind": "arc",
+          "elbowMidPoint": 0.5,
+          "dash": "draw",
+          "size": "m",
+          "fill": "none",
+          "color": "black",
+          "labelColor": "black",
+          "bend": 67.33805863050597,
+          "start": {
+            "x": 0,
+            "y": 0
+          },
+          "end": {
+            "x": -204.18655395507812,
+            "y": 100.58001708984375
+          },
+          "arrowheadStart": "none",
+          "arrowheadEnd": "arrow",
+          "richText": {
+            "type": "doc",
+            "content": [
+              {
+                "type": "paragraph"
+              }
+            ]
+          },
+          "labelPosition": 0.5,
+          "font": "draw",
+          "scale": 1
+        },
+        "parentId": "page:page",
+        "index": "a4pt6rpV",
+        "typeName": "shape"
+      },
+      "page:5l7ZjK5rRo8qFXXmDCYmO": {
+        "meta": {},
+        "id": "page:5l7ZjK5rRo8qFXXmDCYmO",
+        "name": "页面 1",
+        "index": "a2k1zqYl",
+        "typeName": "page"
+      },
+      "binding:VvV24ErAakOrxgIlQR3v3": {
+        "meta": {},
+        "id": "binding:VvV24ErAakOrxgIlQR3v3",
+        "type": "arrow",
+        "fromId": "shape:kFZmMmKym1omB7yJ89AY0",
+        "toId": "shape:CGt1aEvmLrJfVNBpa0fU-",
+        "props": {
+          "isPrecise": true,
+          "isExact": false,
+          "normalizedAnchor": {
+            "x": 0.7553791046535536,
+            "y": 0.019881157668984427
+          },
+          "snap": "none",
+          "terminal": "end"
+        },
+        "typeName": "binding"
+      }
+    },
+    "schema": {
+      "schemaVersion": 2,
+      "sequences": {
+        "com.tldraw.store": 5,
+        "com.tldraw.asset": 1,
+        "com.tldraw.camera": 1,
+        "com.tldraw.document": 2,
+        "com.tldraw.instance": 25,
+        "com.tldraw.instance_page_state": 5,
+        "com.tldraw.page": 1,
+        "com.tldraw.instance_presence": 6,
+        "com.tldraw.pointer": 1,
+        "com.tldraw.shape": 4,
+        "com.tldraw.asset.bookmark": 2,
+        "com.tldraw.asset.image": 5,
+        "com.tldraw.asset.video": 5,
+        "com.tldraw.shape.group": 0,
+        "com.tldraw.shape.text": 4,
+        "com.tldraw.shape.bookmark": 2,
+        "com.tldraw.shape.draw": 4,
+        "com.tldraw.shape.geo": 11,
+        "com.tldraw.shape.note": 10,
+        "com.tldraw.shape.line": 5,
+        "com.tldraw.shape.frame": 1,
+        "com.tldraw.shape.arrow": 8,
+        "com.tldraw.shape.highlight": 3,
+        "com.tldraw.shape.embed": 4,
+        "com.tldraw.shape.image": 5,
+        "com.tldraw.shape.video": 4,
+        "com.tldraw.binding.arrow": 1
+      }
+    }
+  },
+  "session": {
+    "version": 0,
+    "currentPageId": "page:page",
+    "exportBackground": true,
+    "isFocusMode": false,
+    "isDebugMode": false,
+    "isToolLocked": false,
+    "isGridMode": true,
+    "pageStates": [
+      {
+        "pageId": "page:page",
+        "camera": {
+          "x": 555.4103007535349,
+          "y": 509.88044559859964,
+          "z": 0.4925582310749663
+        },
+        "selectedShapeIds": [],
+        "focusedGroupId": null
+      },
+      {
+        "pageId": "page:5l7ZjK5rRo8qFXXmDCYmO",
+        "camera": {
+          "x": 0,
+          "y": 0,
+          "z": 1
+        },
+        "selectedShapeIds": [],
+        "focusedGroupId": null
+      }
+    ]
+  }
+}
