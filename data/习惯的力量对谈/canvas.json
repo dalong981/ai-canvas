@@ -1634,13 +1634,13 @@
     "isFocusMode": false,
     "isDebugMode": false,
     "isToolLocked": false,
-    "isGridMode": true,
+    "isGridMode": false,
     "pageStates": [
       {
         "pageId": "page:page",
         "camera": {
-          "x": 555.4103007535349,
-          "y": 509.88044559859964,
+          "x": 535.1081326663715,
+          "y": 682.4488743394928,
           "z": 0.4925582310749663
         },
         "selectedShapeIds": [],
@@ -1657,5 +1657,10 @@
         "focusedGroupId": null
       }
     ]
+  },
+  "meta": {
+    "canvasId": "06491074-2a5a-4fd0-ab3f-7e3e083f334f",
+    "name": "习惯的力量对谈",
+    "updatedAt": "2026-02-01T15:56:14.173Z"
   }
 }

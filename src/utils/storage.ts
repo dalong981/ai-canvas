@@ -1,14 +1,25 @@
 /**
  * @file 本地存储工具
- * @description 通过本地 API 保存/加载画布到 ai-canvas/data/ 目录
+ * @description 通过本地 API 保存/加载画布到 ai-canvas/data/ 目录，同步到 Logseq
  */
 
 import { Editor, getSnapshot, loadSnapshot } from 'tldraw'
 
+// 保存结果类型
+export interface SaveResult {
+  success: boolean
+  canvasId?: string
+  logseqPath?: string
+}
+
 /**
- * 保存画布到本地
+ * 保存画布到本地（同时同步到 Logseq）
  */
-export async function saveCanvasToLocal(editor: Editor, name: string): Promise<boolean> {
+export async function saveCanvasToLocal(
+  editor: Editor, 
+  name: string, 
+  existingCanvasId?: string
+): Promise<SaveResult> {
   try {
     // 使用 tldraw 的 getSnapshot 函数
     const snapshot = getSnapshot(editor.store)
@@ -20,15 +31,20 @@ export async function saveCanvasToLocal(editor: Editor, name: string): Promise<b
       body: JSON.stringify({
         name,
         json: snapshot,
-        markdown
+        markdown,
+        canvasId: existingCanvasId
       })
     })
 
     const result = await response.json()
-    return result.success === true
+    return {
+      success: result.success === true,
+      canvasId: result.canvasId,
+      logseqPath: result.logseqPath
+    }
   } catch (e) {
     console.error('保存失败:', e)
-    return false
+    return { success: false }
   }
 }
 
@@ -46,29 +62,44 @@ export async function listCanvases(): Promise<string[]> {
   }
 }
 
+// 加载结果类型
+export interface LoadResult {
+  success: boolean
+  canvasId?: string
+  name?: string
+}
+
 /**
  * 从本地加载画布
  */
-export async function openCanvasFromLocal(editor: Editor, name: string): Promise<boolean> {
+export async function openCanvasFromLocal(editor: Editor, name: string): Promise<LoadResult> {
   try {
     const response = await fetch(`/api/open?name=${encodeURIComponent(name)}`)
     
     if (!response.ok) {
-      return false
+      return { success: false }
     }
 
     const result = await response.json()
     
     if (result.success && result.data) {
+      // 提取 meta 信息
+      const meta = result.data.meta
+      
       // 使用 tldraw 的 loadSnapshot 函数
       loadSnapshot(editor.store, result.data)
-      return true
+      
+      return { 
+        success: true,
+        canvasId: meta?.canvasId,
+        name: meta?.name || name
+      }
     }
     
-    return false
+    return { success: false }
   } catch (e) {
     console.error('加载失败:', e)
-    return false
+    return { success: false }
   }
 }
 

@@ -1,6 +1,6 @@
 /**
  * @file 根组件
- * @description 全屏画布 + 顶部工具栏（保存/打开）
+ * @description 全屏画布 + 顶部工具栏（保存/打开），支持 Logseq 同步
  */
 
 import { Tldraw, Editor } from 'tldraw'
@@ -12,6 +12,10 @@ export default function App() {
   const [editor, setEditor] = useState<Editor | null>(null)
   const [showOpenDialog, setShowOpenDialog] = useState(false)
   const [canvasList, setCanvasList] = useState<string[]>([])
+  
+  // 当前画布的 ID 和名称（用于增量更新）
+  const [currentCanvasId, setCurrentCanvasId] = useState<string | undefined>()
+  const [currentCanvasName, setCurrentCanvasName] = useState<string | undefined>()
 
   const handleMount = useCallback((editor: Editor) => {
     setEditor(editor)
@@ -19,12 +23,23 @@ export default function App() {
 
   const handleSave = async () => {
     if (!editor) return
-    const name = prompt('画布名称：', '未命名研究')
+    
+    // 如果已有画布名称，使用它作为默认值
+    const defaultName = currentCanvasName || '未命名研究'
+    const name = prompt('画布名称：', defaultName)
     if (!name) return
     
-    const success = await saveCanvasToLocal(editor, name)
-    if (success) {
-      alert(`✅ 已保存到 ai-canvas/data/${name}/`)
+    const result = await saveCanvasToLocal(editor, name, currentCanvasId)
+    if (result.success) {
+      // 更新当前画布信息
+      setCurrentCanvasId(result.canvasId)
+      setCurrentCanvasName(name)
+      
+      // 显示成功信息
+      const logseqInfo = result.logseqPath 
+        ? `\n📝 已同步到 Logseq: canvas/${name}`
+        : ''
+      alert(`✅ 已保存到 ai-canvas/data/${name}/${logseqInfo}`)
     } else {
       alert('❌ 保存失败，请查看控制台')
     }
@@ -44,8 +59,11 @@ export default function App() {
     if (!editor) return
     setShowOpenDialog(false)
     
-    const success = await openCanvasFromLocal(editor, name)
-    if (success) {
+    const result = await openCanvasFromLocal(editor, name)
+    if (result.success) {
+      // 更新当前画布信息
+      setCurrentCanvasId(result.canvasId)
+      setCurrentCanvasName(result.name || name)
       alert(`✅ 已加载：${name}`)
     } else {
       alert(`❌ 加载失败：${name}`)
