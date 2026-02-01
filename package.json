@@ -1,6 +1,6 @@
 {
   "name": "ai-canvas",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "自由画布 + AI 原生集成的研究工具",
   "type": "module",
   "scripts": {
